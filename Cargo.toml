@@ -2,12 +2,14 @@
 name = "kungfu_os"
 version = "0.1.0"
 edition = "2021"
+default-run = "kungfu_os"
 
 [workspace]
 members = ["kernel"]
 
-[dependencies]
-
 [build-dependencies]
 kernel = { path = "kernel", artifact = "bin", target = "x86_64-unknown-none" }
 bootloader = "0.11.3"
+
+[dependencies]
+ovmf-prebuilt = "0.1.0-alpha.1"
