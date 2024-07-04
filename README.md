@@ -5,13 +5,13 @@ Blazingly fast operating system built in Rust
 
 ### Setup Instructions
 
-1. Ensure you have Rust and relevant toolchains installed (rustup, cargo, neovim)
-2. Install qemu
-  a. MacOS - `brew install qemu`
-  b. Windows - [See instructions here](https://www.qemu.org/download/#windows)
-3. `git clone https://github.com/jakesboy2/kungfu_os.git && cd kungfu_os`
-4. `cargo build`, not strictly needed as running will build, but nice to check for errors
-5. Run the application
+* Ensure you have Rust and relevant toolchains installed (rustup, cargo, neovim)
+* Install qemu
+  * MacOS - `brew install qemu`
+  * Windows - [See instructions here](https://www.qemu.org/download/#windows)
+* `git clone https://github.com/jakesboy2/kungfu_os.git && cd kungfu_os`
+* `cargo build`, not strictly needed as running will build, but nice to check for errors
+* Run the application
 
 ### Ways to Run
 * `cargo run` - Generate .img files for uefi and bios, print file path to stdout
